@@ -1,4 +1,3 @@
-
 Grafo GrafoCompleto(int x) {
 Grafo2 grafo2B;
 initGrafo2(&grafo2B);
@@ -39,12 +38,16 @@ Grafo GrafoKCompleto(int x,int y) {
         }
     }
 
-  for (int z = x-1 ,int i = 0 ; i < grafo2B.numVertices && z > y; z++,i--) {
-        for (int j = 0; j < grafo2B.numVertices; j++) {
-            if (i != j) {
-                remove arestaAresta2(&grafo2B, i, j);
-            }
+  for (int i = 0 ; i < grafo2B.numVertices ,i++) {
+      
+      if(grau de grafo vertice i != y){
+          
+        for (int j = 0; j < y - grau de grafo vertice i  y; j++) {
+            
+                adicionaAresta2(&grafo2B, i, i+j);
+                
         }
+      }
     }
 
   
