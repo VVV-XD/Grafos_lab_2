@@ -53,3 +53,17 @@ Grafo GrafoKCompleto(int x,int y) {
   
 return grafo2B;
 }
+
+
+Grafo GrafoBipartido(Grafo ,int x[] ,int y[] ) {
+  
+  
+  verifica se  todos no conj x nao sao vizinhos
+  verifica se  todos no conj y nao sao vizinhos
+  
+  verifica se existe um vizinho em y para cada elemento de x
+  
+  
+
+  
+}
