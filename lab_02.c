@@ -67,3 +67,21 @@ Grafo GrafoBipartido(Grafo ,int x[] ,int y[] ) {
 
   
 }
+
+Grafo SomaGrau(Grafo ,int x[] ,int y[] ) {
+  
+  for (int i = 0; i < grafo2B.numVertices; i++) {
+        
+        calculargrau de vertice i;
+        
+        soma = calculargrau;
+        if (calculargrau for impar){
+            impar++
+        }
+        if (calculargrau for par){
+           par++
+        }
+        
+    }
+  
+}
